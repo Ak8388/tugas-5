@@ -4,13 +4,14 @@
 }
 
 #container{
+    margin-top: 10px;
     display: flex;
     gap: 30px;
     justify-content: center;
 }
 #tambah{
     border-radius: 20px;
-    background-color: gray;
+    background-color: rgb(165, 163, 163);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -33,7 +34,7 @@
 
 #edit{
     border-radius: 20px;
-    background-color: gray;
+    background-color: rgb(165, 163, 163);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -67,11 +68,11 @@ input{
 }
 
 button{
-    background-color: azure;
+    background-color: rgb(190, 243, 243);
 }
 #hps{
     border-radius: 20px;
-    background-color: gray;
+    background-color: rgb(165, 163, 163);
     display: flex;
     flex-direction: column;
     gap: 10px;

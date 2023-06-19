@@ -5,6 +5,7 @@ import {TbArrowsMaximize} from "react-icons/tb"
 import {TbArrowsMinimize} from "react-icons/tb"
 import {AiOutlineMinus} from "react-icons/ai"
 import "./App.css"
+import Header from './components/Header'
 
 const valuePants = [
   {
@@ -113,6 +114,8 @@ function App() {
   }
 
   return (
+    <>
+    <Header/>
     <div id='container'>
       <div>
         {
@@ -169,6 +172,7 @@ function App() {
         <button id='btnhps' onClick={()=>setPants([])}>Semua</button>
       </div>
     </div>
+    </>
   )
 }
 
